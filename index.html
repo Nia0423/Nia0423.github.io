@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ruyi Ni - Homepage">
+  <title>Ruyi Ni - Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Source+Sans+3:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="masthead">
+    <div class="nav-inner">
+      <a href="#" class="active">Homepage</a>
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#competitions">Competitions</a>
+      <a href="#honors">Honors</a>
+      <a href="#education">Education</a>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="avatar">
+        <img src="assets/profile.jpg" alt="Ruyi Ni">
+      </div>
+
+      <h1 class="name">Ruyi Ni</h1>
+      <div class="name-cn">倪如意</div>
+      <div class="affiliation">
+        Renmin University of China<br>
+        Undergraduate, Class of 2027<br>
+        <span style="color: var(--muted); font-size: 14px;">Big Data Technology · Agricultural & Forestry Economics</span>
+      </div>
+      <div class="homepage-label">Ruyi's Homepage</div>
+
+      <ul class="info-list">
+        <li><span class="icon">📍</span><span>Beijing, China</span></li>
+        <li><span class="icon">🏫</span><span>Renmin University of China</span></li>
+        <li><span class="icon">✉️</span><a href="mailto:niruyi0423@163.com">niruyi0423@163.com</a></li>
+        <li><span class="icon">💻</span><a href="https://github.com/Nia0423">GitHub</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <section id="about">
+        <p>
+          I am <strong>Ruyi Ni</strong>, an undergraduate student in the Dual Bachelor's Program of
+          <strong>Big Data Technology</strong> and <strong>Agricultural & Forestry Economics and Management</strong>
+          at <strong>Renmin University of China</strong>. My current GPA is <strong>3.84/4.0</strong>,
+          ranking <strong>1st/10</strong> in my program.
+        </p>
+        <p>
+          My research interests include <strong>Large Language Model Agents</strong>,
+          <strong>Information Retrieval</strong>, <strong>Automated Scientific Discovery</strong>,
+          and <strong>Financial Technology</strong>.
+        </p>
+        <p>
+          I am currently working on idea-level evaluation for autonomous research
+          and cognitively grounded search user simulation, while also exploring model merging.
+          My academic background combines
+          solid training in algorithms, data systems, machine learning, mathematical modeling,
+          and financial data analysis.
+        </p>
+      </section>
+
+      <section id="news">
+        <h2><span class="emoji">🔥</span>News</h2>
+        <ul class="news-list">
+          <li><span class="date">2026.06</span><span>Our paper <strong>CAS</strong> has been submitted to <strong>CIKM 2026</strong>.</span></li>
+          <li><span class="date">2026.05</span><span>Our paper <strong>IDEAL</strong> has been submitted to <strong>EMNLP 2026</strong>.</span></li>
+          <li><span class="date">2026.01</span><span>Started an ongoing research project on sparse and low-rank subspace optimization for model merging.</span></li>
+          <li><span class="date">2026.01</span><span>Won a bronze medal in the <strong>MITSUI&amp;CO. Commodity Prediction Challenge</strong>.</span></li>
+          <li><span class="date">2025.10</span><span>Received the <strong>National Scholarship</strong>.</span></li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2><span class="emoji">📝</span>Publications & Research Projects</h2>
+        <p style="font-size: 14px; color: var(--muted); margin-bottom: 18px;">
+          Research manuscripts are listed by current status. More links will be added after public release.
+        </p>
+
+        <article class="paper">
+          <div class="thumb" aria-hidden="true">
+            <img src="assets/ideal-method.png" alt="IDEAL method overview">
+          </div>
+          <div>
+            <span class="paper-badge review">EMNLP 2026 · Submitted</span>
+            <h3 class="paper-title">IDEAL: Multi-Dimensional Decoupled Idea-Level Evaluation for AutoResearch</h3>
+            <p class="authors">Co-authors including <strong>Ruyi Ni</strong> · <strong>Co-first Author</strong></p>
+            <p class="paper-meta">LLM Agents · Automated Research · Idea Evaluation</p>
+            <p class="tldr">
+              We propose an idea-level evaluation framework for autonomous research systems.
+              IDEAL decomposes the pipeline into a Forge generator and a Lens evaluator,
+              measuring semantic diversity, contextual coverage, and literature atypicality
+              for generated research idea sets.
+            </p>
+            <div class="paper-links"><span>PDF (under review)</span></div>
+          </div>
+        </article>
+
+        <article class="paper">
+          <div class="thumb" aria-hidden="true">
+            <img src="assets/cas-fig.png" alt="CAS framework overview">
+          </div>
+          <div>
+            <span class="paper-badge review">CIKM 2026 · Submitted</span>
+            <h3 class="paper-title">CAS: Cognition-Action Search User Simulation</h3>
+            <p class="authors">Co-authors including <strong>Ruyi Ni</strong> · <strong>Co-first Author</strong></p>
+            <p class="paper-meta">Information Retrieval · User Simulation · LLM Agents</p>
+            <p class="tldr">
+              Inspired by dual-system theory, CAS explicitly models latent user cognition
+              and dynamically selects downstream action-generation strategies, improving
+              controllability and interpretability in search user simulation.
+            </p>
+            <div class="paper-links"><span>PDF (under review)</span></div>
+          </div>
+        </article>
+
+        <article class="paper text-only">
+          <div>
+            <span class="paper-badge">Ongoing Research</span>
+            <h3 class="paper-title">Sparse and Low-Rank Subspace Optimization for Model Merging</h3>
+            <p class="authors"><strong>Ruyi Ni</strong> · Personal Research</p>
+            <p class="paper-meta">Model Merging · Sparse/Low-Rank Optimization</p>
+            <p class="tldr">
+              I am studying methods such as TIES, DARE, and APL, focusing on reducing
+              task interference by transforming model parameters into sparse or low-rank
+              subspaces before merging.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="competitions">
+        <h2><span class="emoji">🏅</span>Competition Highlights</h2>
+        <div class="comp-card">
+          <h3>MITSUI&amp;CO. Commodity Prediction Challenge</h3>
+          <p class="meta">2025.11 - 2026.01 · Quantitative Finance · Time Series Prediction · Independent Participant</p>
+          <p>
+            Built an ensemble prediction framework for noisy and heterogeneous global financial
+            time-series data. The solution combined relative-return smoothing, a
+            Conv2D-LSTM-Dense architecture with SE channel attention, LightGBM regression, and
+            defensive fallback mechanisms. Ranked in the <strong>Top 7.5%</strong> among
+            <strong>1,711</strong> teams worldwide and received a bronze medal.
+          </p>
+        </div>
+        <div class="comp-card">
+          <h3>Optiver - Trading at the Close</h3>
+          <p class="meta">2024.02 - 2024.03 · AI for Trading · Feature Engineering · Assistant Team Member</p>
+          <p>
+            Participated in predicting Nasdaq close-price movements using order-book and
+            closing-auction data. The workflow included historical window features,
+            quantitative factor mining, hold-out time-series validation, LGBM/CatBoost
+            ensemble learning, and hyperparameter search. Ranked in the <strong>Top 5%</strong> among
+            <strong>4,436</strong> teams and received a bronze medal.
+          </p>
+        </div>
+      </section>
+
+      <section id="honors">
+        <h2><span class="emoji">🏆</span>Honors and Awards</h2>
+        <ul class="award-list">
+          <li><span class="date">2025</span><span>National Scholarship</span><span class="award-badge national">National</span></li>
+          <li><span class="date">2025</span><span>Outstanding Communist Youth League Member, RUC</span><span class="award-badge school">School</span></li>
+          <li><span class="date">2025</span><span>Bronze Medal · MITSUI&amp;CO. Commodity Prediction Challenge</span><span class="award-badge international">International</span></li>
+          <li><span class="date">2024</span><span>Da Bei Nong Excellence Talent Scholarship</span><span class="award-badge school">School</span></li>
+          <li><span class="date">2024</span><span>Merit Student Honorary Title, Renmin University of China</span><span class="award-badge school">School</span></li>
+          <li><span class="date">2024</span><span>Bronze Medal · Optiver - Trading at the Close</span><span class="award-badge international">International</span></li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <h2><span class="emoji">📖</span>Education</h2>
+        <div class="education-row">
+          <div class="education-copy">
+            <p class="education-date">2023.09 - Present</p>
+            <p class="education-degree">Dual Bachelor's Program of Big Data Technology and Agricultural & Forestry Economics and Management</p>
+            <p class="education-school">Renmin University of China</p>
+            <p class="education-gpa"><em>GPA: 3.84/4.0 (Rank: 1/10)</em></p>
+          </div>
+          <img src="assets/ruc.png" alt="Renmin University of China logo">
+        </div>
+        <div class="course-list">
+          <div><strong>Mathematics:</strong> Advanced Mathematics (91), Statistics (92), Operations Research Modeling and Algorithms (93)</div>
+          <div><strong>Computer Science:</strong> Data Structures and Algorithms I (94), Data Structures and Algorithms II (94), Database Systems (91), Parallel Computing (92)</div>
+          <div><strong>AI & Retrieval:</strong> Machine Learning (91), Introduction to Intelligent Information Retrieval (93)</div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2><span class="emoji">💻</span>Skills</h2>
+        <ul class="skill-lines">
+          <li><strong>Programming:</strong> Proficient in C++, Python, and R; experienced with algorithms, data structures, and clean coding practices.</li>
+          <li><strong>Deep Learning:</strong> Familiar with PyTorch, NumPy, Pandas, multimodal LLMs, LoRA-style efficient fine-tuning, and GRPO-based optimization.</li>
+          <li><strong>Agents & Retrieval:</strong> Experienced with LLM agents, CoT/ReAct-style prompting, LangChain, RAG systems, and information retrieval workflows.</li>
+          <li><strong>Financial Data:</strong> Experienced in feature engineering, high-noise time-series modeling, factor mining, and financial prediction pipelines.</li>
+          <li><strong>Tools:</strong> VS Code, PyCharm, Jupyter Notebook, LaTeX, Git, Claude Code, and Codex.</li>
+        </ul>
+      </section>
+
+      <footer>
+        © Ruyi Ni · <a href="https://Nia0423.github.io/">Nia0423.github.io</a>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    const sections = document.querySelectorAll("main section");
+    const navLinks = document.querySelectorAll(".nav-inner a");
+
+    function updateActiveLink() {
+      let current = "";
+      const y = window.scrollY + 120;
+      sections.forEach((section) => {
+        if (section.offsetTop <= y) current = section.id;
+      });
+      navLinks.forEach((link) => {
+        link.classList.remove("active");
+        const href = link.getAttribute("href");
+        if (href === "#" && (!current || current === "about")) {
+          link.classList.add("active");
+        } else if (href === "#" + current) {
+          link.classList.add("active");
+        }
+      });
+    }
+
+    window.addEventListener("scroll", updateActiveLink);
+    updateActiveLink();
+  </script>
+</body>
+</html>
